@@ -1,8 +1,8 @@
-name=""
-if name == "Anh Quan":
-    print("Hand some")
-elif name == "Minh Duc":
-    even_more_handsome = True
+num = float(input("Enter a number: "))
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
 else:
-    # webbrowser.open(“https://www.youtube.com/watch?v=04854XqcfCY”)
-    print("1")
+    print("Negative number")
